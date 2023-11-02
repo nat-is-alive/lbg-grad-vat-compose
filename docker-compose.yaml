@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   calc-api:
-  image: <username>/bg-grad-compose-api
+  image: nat123/bg-grad-compose-api
   build:./calculator-api
   ports:
     - target: 8080
