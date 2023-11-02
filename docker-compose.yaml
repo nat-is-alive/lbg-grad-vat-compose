@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  calc-api:
+  calc-api: null
   image: nat123/lbg-grad-compose-api
   build: ./calculator-api
   ports:
