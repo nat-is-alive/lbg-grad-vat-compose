@@ -19,4 +19,4 @@ services:
       context: ./frontend-2
     ports:
       - target: 80
-        published: 81
+        published: 82
