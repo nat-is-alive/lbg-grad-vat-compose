@@ -4,7 +4,7 @@ services:
     image: natu123/lbg-grad-compose-api
     build: ./calculator-api
     ports:
-     - target: 8080
+     - target: 8081
        published: 8081
   front-a:
     image: natu123/lbg-grad-compose-front-a
