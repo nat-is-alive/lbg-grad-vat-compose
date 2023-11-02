@@ -5,18 +5,18 @@ services:
   build:./calculator-api
   ports:
     - target: 8080
-    published: 8080
+      published: 8080
 front-a:
   image: nat123/Ibg-grad-compose-front-a
   build:
     context: /frontend-1
   ports:
     - target: 80
-    published: 80
+      published: 80
 front-b:
   image: nat123/Ibg-grad-compose-front-b
   build:
     context: /frontend-2
   ports:
     - target: 80
-    published: 81
+      published: 81
