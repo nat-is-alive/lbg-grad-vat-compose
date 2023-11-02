@@ -12,7 +12,7 @@ services:
       context: ./frontend-1
     ports:
       - target: 80
-        published: 80
+        published: 81
   front-b:
     image: natu123/lbg-grad-compose-front-b
     build:
